@@ -9,7 +9,7 @@ export const Share = () => {
     window.open(
       `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
         `https://adhd.f5game.co.kr`
-      )}&t=성인 ADHD 테스트 자가진단`,
+      )}&t=ADHD 테스트 자가진단`,
       "_blank",
       "width=600, height: 400"
     );
@@ -40,8 +40,8 @@ export const Share = () => {
         container: "#kakao-link-btn",
         objectType: "feed",
         content: {
-          title: "성인 ADHD 테스트 자가진단 - F5 Games",
-          description: "성인 ADHD 테스트 자가진단- F5 Games",
+          title: "ADHD 테스트 자가진단 - F5 Games",
+          description: "ADHD 테스트 자가진단- F5 Games",
           imageUrl: "https://f5game.s3.ap-northeast-2.amazonaws.com/adhd.png",
           link: {
             mobileWebUrl: "https://adhd.f5game.co.kr",
@@ -71,7 +71,7 @@ export const Share = () => {
           style={{ cursor: "pointer" }}
         >
           <a
-            href={`https://twitter.com/intent/tweet?text=성인 ADHD 테스트 자가진단?&url=https://adhd.f5game.co.kr&hashtags=#ADHD#테스트}`}
+            href={`https://twitter.com/intent/tweet?text=ADHD 테스트 자가진단?&url=https://adhd.f5game.co.kr&hashtags=#ADHD#테스트}`}
             target="_blank"
             rel="noreferrer"
           >

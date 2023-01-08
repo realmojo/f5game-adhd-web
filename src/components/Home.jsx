@@ -21,9 +21,9 @@ export const Home = () => {
   }, []);
   return (
     <div className="flex justify-center flex-col">
-      <h1 className="text-3xl text-center pt-16">성인 ADHD 테스트 자가진단</h1>
+      <h1 className="text-3xl text-center pt-16">ADHD 테스트 자가진단</h1>
       <p className="text-center mb-2">
-        본인이 성인 ADHD라고 생각하시나요? 선택해주세요.
+        본인이 ADHD라고 생각하시나요? 선택해주세요.
       </p>
       <div className="text-center mb-2">
         <Select
@@ -38,7 +38,7 @@ export const Home = () => {
         </Select>
       </div>
       <AdsenseMain />
-      <div className="text-center mt-2">
+      <div className="text-center mt-2 mb-4">
         {isLoading ? (
           <Button
             style={{ width: 336 }}
@@ -46,7 +46,7 @@ export const Home = () => {
             type="primary"
             size="large"
           >
-            <Link to="/page1">START</Link>
+            <a href="/page1">START</a>
           </Button>
         ) : (
           ""
@@ -54,7 +54,7 @@ export const Home = () => {
       </div>
       <article>
         <div className="post">
-          <h2>성인 ADHD란</h2>
+          <h2>ADHD란</h2>
           <p>
             성인 ADHD는 주의력결핍 과잉행동장애(ADHD)라는 질환입니다. 아마
             생소하실 겁니다. 국내에서는 아직까지 잘 알려지지 않은 질병이기
@@ -67,7 +67,7 @@ export const Home = () => {
           </p>
         </div>
         <div className="post">
-          <h2>성인 ADHD 검사</h2>
+          <h2>ADHD 검사</h2>
           <p>
             주의력결핍 과잉행동장애(ADHD) 증상 여부를 확인할 수 있는 자가진단
             테스트입니다. 주의력결핍 과잉행동장애(ADHD)는 아동기에 주로 나타나는
@@ -85,8 +85,8 @@ export const Home = () => {
             <li>코너스 성인 주의력결핍 과잉행동장애 평정척도(CAARS)</li>
             <li>성인 ADHD 진단을 위한 면담(DIVA)</li>
             <li>
-              이렇게 얻은 다양한 정보를 종합하여 최종적으로 성인 ADHD 진단을
-              내리게 된다.
+              이렇게 얻은 다양한 정보를 종합하여 최종적으로 ADHD 진단을 내리게
+              된다.
             </li>
           </ul>
         </div>
